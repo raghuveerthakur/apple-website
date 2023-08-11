@@ -1,0 +1,721 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.navbar{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: rgb(226, 223, 223);
+    padding-inline: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0%;
+}
+.navbar ul {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.navbar ul h2{
+    display: none;
+}
+/* navbar2 */
+.navbar2{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section1{
+    width: 100%;
+    height: 600px;
+    background-color:whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.section1 h1{
+    text-align: center;
+    font-size: 50px;
+}
+.section1 p{
+    font-size: 25px;
+    padding-top: 15px;
+}
+.section1 h5{
+    padding-top: 10px;
+    font-size: 20px;
+    color: rgb(48, 48, 212);
+}
+.section1 h5:hover{
+    cursor: pointer;
+}
+.section1 img{
+    padding-top: 10px;
+}
+/* section2 */
+.section2{
+    width: 100%;
+    height:550px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+.section2 h1{
+    font-size: 50px;
+    padding-top: 30px;
+}
+.section2 h2{
+    font-size: 30px;
+}
+.section2 a{
+    color: rgb(49, 49, 206);
+    padding-top: 15px;
+    text-decoration: none;
+}
+.section2 img{
+    padding-top: 10px;
+}
+.section2 a:hover{
+    border-bottom: 1px solid rgb(35, 35, 141);
+}
+.section2 span{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   gap: 40px;
+   font-size: 20px;
+}
+
+/* section3 */
+.section3{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.section3 h1{
+    padding-top: 40px;
+    font-size: 60px;
+}
+.section3 h2{
+    font-size: 30px;
+    color: rgb(49, 45, 45);
+}
+.section3 span{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+
+}   
+.section3 a{
+text-decoration: none;
+color: rgb(49, 49, 206);
+padding-top: 15px;
+}
+.section3 a:hover{
+    border-bottom: 1px solid rgb(35, 35, 141);
+}
+.section3 img{
+    padding-top: 50px;
+}
+
+/* section4 */
+.section4{
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+}
+.section-part{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.part1{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.part2{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: aliceblue;
+}
+.part1 h1{
+    text-align: center;
+    font-size: 35px;
+}
+.part1 p{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20px;
+}
+.part1 span{
+    width: 100%;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+}
+.part1 a{
+    text-decoration: none;
+    color: rgb(49, 49, 206);
+padding-top: 15px;
+}
+.part1 a:hover{
+    border-bottom: 1px solid rgb(35, 35, 141);
+}
+.part1 img{
+    padding-top: 50px;
+}
+.part2 h1{
+    font-size: 35px;
+}
+.part2 p{
+    font-size: 23px;
+    padding-top: 10px;
+}
+.part2 img{
+    width: 350px;
+}
+.part2 span{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+
+}   
+.part2 a{
+text-decoration: none;
+color: rgb(49, 49, 206);
+padding-top: 15px;
+}
+.part2 a:hover{
+    border-bottom: 1px solid rgb(35, 35, 141);
+}
+/* section5 */
+.section5{
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: white;
+    color: white;
+    margin-top: 20px;
+    gap: 10px;
+}
+.box1{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+
+}
+.box2{
+    width: 50%;
+    height: auto;
+    background-image: url(./img-7p.jpg);
+     background-position: center;
+    background-size: cover; 
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    color: white;
+}
+.box1 h1{
+    padding-top: 60px;
+}
+.box1 p{
+    color: red;
+    padding-top: 10px;
+}
+.box1 h2{
+    padding-top: 10px;
+}
+.box1 span{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+}
+.box1 a{
+    text-decoration: none;
+color: rgb(49, 49, 206);
+padding-top: 15px;
+}
+.box2 h1{
+    padding-top: 50px;
+    font-size: 35px;
+}
+.box2 h2{
+    padding-top: 10px;
+}
+.box2 span{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.box2 a{
+    text-decoration: none;
+color: rgb(49, 49, 206);
+padding-top: 15px;
+font-size: 20px;
+}
+.box2 a:hover{
+    border-bottom: 1px solid rgb(35, 35, 141);
+}
+.box1 a:hover{
+    border-bottom: 1px solid rgb(35, 35, 141);
+}
+/* section6 */
+.section6{
+    width: 100%;
+    height: auto;
+    height: auto;
+    display: flex;
+    background-color: white;
+    margin-top: 15px;
+}
+.boxes1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    flex-direction: column;
+    color: white;
+}
+.boxes2{
+    background-image: url(./two\ phone.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    display: flex; 
+    align-items: center;
+    background-color: azure;
+    flex-direction: column;
+}
+.boxes1 h1{
+    font-size: 35px;
+    padding-top: 50px;
+}
+.boxes1 h2{
+    color: rgb(212, 210, 210);
+}
+.boxes1 span{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.boxes1 a{
+    text-decoration: none;
+color: rgb(49, 49, 206);
+padding-top: 15px;
+font-size: 20px;
+
+}
+.boxes1 a:hover{
+    border-bottom: 1px solid rgb(35, 35, 141);
+}
+.boxes1 img{
+    padding-top: 70px;
+}
+.boxes2 h1{
+    font-size:35px ;
+    padding-top: 50px;
+}
+.boxes2 h2{
+    padding-top: 10px;
+}
+.boxes2 p{
+    padding-top: 10px;
+    color: blue;
+    font-size: 20px;
+}
+.boxes2 span{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:15px;
+    font-size: 17px;
+}
+.boxes2 a{
+    text-decoration: none;
+color: rgb(49, 49, 206);
+}
+.boxes2 a:hover{
+    border-bottom: 1px solid rgb(35, 35, 141);
+}
+
+/* section7 */
+.section7{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    padding-inline: 140px;
+}
+.section7-part{
+    width: 100%;
+    height: 600px;
+    background-image: url(./boy\ and\ girl\ bk\ image.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.section7-part span{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+padding-top: 450px;
+}
+.section7-part span button{
+    width: 170px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: 20px;
+    border: none;
+}
+/* section8 */
+.section8{
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    background-color:whitesmoke;
+}
+.section8 hr{
+    width: 80%;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+.section8-part{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 150px;
+}
+
+/* section9 */
+.section9{
+    width: 100%;
+    height: auto;
+     display: flex;
+     justify-content: space-around;
+     padding-inline: 100px;
+     padding-top: 30px; background-color:whitesmoke;
+}
+.section9 ul li{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 5px;
+    
+}
+.section9 ul li:hover{
+    border-bottom: 1px solid black;
+    cursor: pointer;
+}
+/* section10 */
+.section10{
+    width: 100%;
+    background-color:whitesmoke;
+    height: auto;display: flex;
+    align-items: center;
+    padding-top: 20PX;
+    flex-direction: column; 
+    gap: 10px;
+}
+.section10 hr{
+    width: 60%;
+
+}
+
+@media(max-width:768px){
+
+.container{
+    width: 100%;
+    height: auto;
+}
+.navbar{
+    width: 100%;
+    height: 50px;
+    display: flex; 
+    justify-content:space-between ;
+}
+.navbar ul li {
+    display: none;
+}
+.navbar ul {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content:space-between;  
+}
+    .navbar2{
+        width: 100%;
+        height:70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+.section1{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.section1 h1{
+    font-size: 30px;
+    padding-top: 20px;
+}
+.section1 p{
+    font-size: 18px;
+}
+.section2{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+.section2 img{
+    width: 300px;
+}
+.section2 h1{
+    font-size: 30px;
+}
+.section2 h2{
+    font-size: 22px;
+}
+.section3{
+    width: 100%;
+    height: auto;
+}
+.section3 h1{
+    font-size: 30px;
+}
+.section3 h2{
+    font-size: 22px;
+}
+.section3 img{
+    width: 320px;
+}
+.section4{
+    width: 100%;
+    height: auto;
+}
+.section-part{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+}
+.part1{
+    width: 100%;
+    height: auto;
+}
+.part2{
+    width: 100%;
+    height: auto;
+    padding-top: 90px;
+}
+.part1 img{
+    width:320px ;
+}
+.part2 img{
+    font-size:320px ;
+}
+.section5 {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+.box1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2{
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+.box1 img{
+    width: 320px;
+}
+.box1 h1{
+padding-bottom: 40px;
+}
+.box1 p {
+  position: relative;
+  bottom: 40px;
+}
+.box1 h2{
+    position: relative;
+    bottom: 40px;
+}
+.box1 span{
+    position: relative;
+    bottom: 50px;
+}
+.section6{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+.boxes1{
+    width: 100%;
+    height: auto;
+}
+.boxes1 img{
+    width: 320px;
+}
+.boxes2{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    text-align: center;
+    
+}
+/* .section7{
+ margin: auto;
+    max-width: 100%;
+    height: auto;
+}
+.section7-part{
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+
+    /* background-position: center; */
+ */
+ .section7{
+    display: none;
+ }
+ .section7-part{
+    display: none;
+ }
+.section8{
+    display: none;
+}
+.section9{
+    width: 100%;
+    height: auto;
+     display: flex; 
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+    /* text-align: center; */
+    gap: 20px;
+}
+.section9 ul{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.section10{
+    width: 100%;
+    height: 60px;
+    text-align: center;
+}
+.patel{
+    display: none;
+}
+.section10 hr{
+    display: none;
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
